@@ -10,4 +10,6 @@ Great communicator | Detail/procedure oriented | Mindful, understanding, empathe
 Former EMT. Currently working in Special Education with a long history of related jobs.
 
 ## Contact
-[twitter](https://twitter.com/itsbexli) | [discord](https://discordapp.com/users/177131156028784640) | [email](mailto:bexli.contact@gmail.com) | [linkedin](https://www.linkedin.com/in/joshua-lee-88a8a5154) | [github](https://github.com/JoshPaulie) 
+*contact@bexli.co*
+
+[twitter](https://twitter.com/itsbexli) | [discord](https://discordapp.com/users/177131156028784640) | [linkedin](https://www.linkedin.com/in/joshua-lee-88a8a5154) | [github](https://github.com/JoshPaulie) 
