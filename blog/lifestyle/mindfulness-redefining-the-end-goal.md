@@ -18,13 +18,14 @@ You quickly get to know yourself during these meditation sessions.
 
 You'll learn...
 * How quickly you need stimulus, like YouTube or twitter
-* What your brains default state is
+* What your brain's default state is
 * How often you think of the past or future
+* How runaway thoughts snowball into bad days
 
-In time you'll recognize these mental pitfalls and how capable you are of overcoming them. You'll learn how runaway thoughts snowball into bad days, and how often you default to "oh shit! I'm screwed!"
+In time you'll recognize these mental pitfalls and how capable you are of overcoming them. 
 
 ## Conclusion
-Mindfulness is operating with a purpose, both physically and mentally.
+Mindfulness is operating purposefully and consciously, both physically and mentally.
 
 You can practice being mindful with meditation, the practice of observing your thoughts/environment passively, to see what comes of them.
 
@@ -32,6 +33,6 @@ You can be mindful in your day to day tasks, by taking your time and consciously
 
 ## Tips for meditation
 * Practice "active" meditation during your daily chores, like folding the laundry or doing the dishes.
-* Practice "traditional" meditation daily, by finding a quiet space and observing your thoughts. (Why am I relaxed? Why am I stressed? Why am I hot? How does the room smell? How does the wind sound against your ears?)
+* Practice "traditional" meditation daily, by finding a quiet space and observing your thoughts. (Why am I relaxed? Why am I stressed? Why am I hot? How does the room smell? How does the wind sound against my ears?)
 * Pick a frequent occurrences (washing your hands, starting your car) to tie your practice to. For example, anytime I'm washing my hands I'm taking a second to stop thinking about my day and solely focus on washing my hands. You'll begin to notice how impactful these pauses can be
-* Read, read, read! There's lot of wonderful (secular, science based) books that take a deep dive into the lasting impact of mindfulness. But be care! There's a lot of nonsense out there. Avoid sensational titles and seek out well researched books written by psychologist, psychiatrist, etc. Most gurus are filled to the brim with nonsense. 
+* Read, read, read! There's lot of wonderful (secular, science based) books that take a deep dive into the lasting impact of mindfulness. But be careful! There's a lot of nonsense out there. Avoid sensational titles and seek out well researched books written by psychologist, psychiatrist, etc. Most gurus are filled to the brim with baloney. 
