@@ -10,7 +10,7 @@ A helpful way to explain mindfulness is to explain it's counterpart, mindlessnes
 ### I thought meditation was sitting quiet, chanting? / I thought mediation was religious or spiritual?
 It absolutely can be. Ultimately meditation is being mindful of your thoughts and actions. You can do this quietly on a pillow, or while pulling weeds in your garden. 
 
-## " I've tried meditating. It's boring and ineffective"
+## "I've tried meditating. It's boring and ineffective"
 I was shocked too by how dull the idea is in practice. Shockingly, your brain hates being bored. Who knew? That's the sort of "pain" that is needed for real personal growth. Similarly to exercise, it's really uncomfortable starting out. But unlike exercise, your load doesn't get harder, but easier.
 
 ## If it's admittedly dull, how could I possibly benefit?
