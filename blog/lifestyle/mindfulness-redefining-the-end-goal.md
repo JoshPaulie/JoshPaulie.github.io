@@ -34,5 +34,5 @@ You can be mindful in your day to day tasks, by taking your time and consciously
 ## Tips for meditation
 * Practice "active" meditation during your daily chores, like folding the laundry or doing the dishes.
 * Practice "traditional" meditation daily, by finding a quiet space and observing your thoughts. (Why am I relaxed? Why am I stressed? Why am I hot? How does the room smell? How does the wind sound against my ears?)
-* Pick a frequent occurrences (washing your hands, starting your car) to tie your practice to. For example, anytime I'm washing my hands I'm taking a second to stop thinking about my day and solely focus on washing my hands. You'll begin to notice how impactful these pauses can be
+* Pick a frequent occurrence (washing your hands, starting your car) to tie your practice to. For example, anytime I'm washing my hands I'm taking a second to stop thinking about my day and solely focus on washing my hands. You'll begin to notice how impactful these pauses can be
 * Read, read, read! There's lot of wonderful (secular, science based) books that take a deep dive into the lasting impact of mindfulness. But be careful! There's a lot of nonsense out there. Avoid sensational titles and seek out well researched books written by psychologist, psychiatrist, etc. Most gurus are filled to the brim with baloney. 
