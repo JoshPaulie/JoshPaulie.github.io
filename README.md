@@ -15,4 +15,5 @@ Former EMT. Currently working in Special Education with a long history of relate
 [twitter](https://twitter.com/itsbexli) • [discord](https://discordapp.com/users/177131156028784640) • [linkedin](https://www.linkedin.com/in/joshua-lee-88a8a5154) • [github](https://github.com/JoshPaulie) 
 
 ### Recent blog posts
-[Mindfulness: Redefining the end goal](./blog/lifestyle/mindfulness-redefining-the-end-goal.md)
+- [Making a CLI with Python](./blog/tech/python/creating-a-cli-app.md)
+- [Mindfulness: Redefining the end goal](./blog/lifestyle/mindfulness-redefining-the-end-goal.md)
