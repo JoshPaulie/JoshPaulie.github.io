@@ -2,6 +2,8 @@
 
 Welcome to [bexli.co](bexli.co), my personal website. A static blog is coming soon but for now, a plead for my employment.
 
+Want to learn Python this summer? [Click here](.learnpython.md) to learn about the course I'm offering!
+
 ## Skillset
 Python (OOP) • MongoDB • Git/VCS
 
