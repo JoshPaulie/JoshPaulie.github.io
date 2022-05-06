@@ -12,3 +12,7 @@
 - [contact@bexli.co](mailto:contact@bexli.co)
 - [twitter](https://twitter.com/itsbexli) 
 - [discord](https://discordapp.com/users/177131156028784640)
+
+---
+
+Note: The first couple of sessions will be free, and the few after that at a reduced rate. This disclaimer will be removed when I'm comfortable charging people the full price, which is still being determined. 
