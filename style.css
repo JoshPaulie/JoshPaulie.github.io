@@ -1,84 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 :root {
-  font-size: 16px;
-  font-family: "Radio Canada", sans-serif;
+  font-size: 18px;
+  font-family: "Fira Code", monospace;
 
-  --dark-glue: #17171b;
-  --white-create: #fbe2c3;
-  --red: #bb5b4e;
-  --yellow: #df9d65;
+  --bex-black: #282c34;
+  --bex-darkblue: #212435;
+  --bex-white: #fbfcff;
+  --bex-red: #e06c75;
 
-  --transition-speed: 0.5s ease;
+  --transition-speed: 0.5s;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
-  margin-left: 30rem;
-  margin-right: 30rem;
+  margin: 0px;
   padding: 0px;
-  background-color: var(--dark-glue);
-}
-
-@media only screen and (max-width: 1000px) {
-  body {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-}
-
-.site-header {
-  grid-area: header;
-}
-
-.site-header img {
-  width: 100vh;
-  filter: invert(38%) sepia(42%) saturate(795%) hue-rotate(319deg)
-    brightness(100%) contrast(82%);
-}
-
-.svg-img img {
-  transition: var(--transition-speed);
-  width: 80px;
-  filter: invert(92%) sepia(7%) saturate(1478%) hue-rotate(326deg)
-    brightness(102%) contrast(97%);
-}
-
-.svg-img img:hover {
-  transition: var(--transition-speed);
-  filter: invert(63%) sepia(34%) saturate(574%) hue-rotate(346deg)
-    brightness(101%) contrast(88%);
-  transform: scale(110%);
-  cursor: pointer;
-}
-
-.bex-python {
-  grid-area: python;
-}
-
-.bex-web {
-  grid-area: web;
-}
-
-.bex-tutoring {
-  grid-area: contact;
-}
-
-.site-footer {
-  grid-area: footer;
-}
-
-.site-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "header header header"
-    "python web contact"
-    "footer footer footer";
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--bex-darkblue);
+  color: var(--bex-white);
 }
 
-.site-grid {
+.site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   column-gap: 1rem;
-  row-gap: 5rem;
-  place-items: center;
+  line-height: 2rem;
+}
+
+a {
+  font-size: 2rem;
+  transition: 1s;
+}
+
+img {
+  transition: var(--transition-speed);
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img {
+  vertical-align: middle;
+  width: 2rem;
+}
+
+.red-text {
+  color: var(--bex-red);
 }
