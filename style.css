@@ -5,6 +5,7 @@
 
   --bex-black: #282c34;
   --bex-darkblue: #212435;
+  --bex-lightblue: #7e82a0;
   --bex-white: #fbfcff;
   --bex-red: #e06c75;
 
@@ -38,11 +39,6 @@ body {
   line-height: 2rem;
 }
 
-a {
-  font-size: 2rem;
-  transition: 1s;
-}
-
 img {
   transition: var(--transition-speed);
 }
@@ -57,5 +53,64 @@ img {
 }
 
 .red-text {
+  color: var(--bex-red);
+}
+
+.button {
+  display: block;
+  border: 2px solid var(--bex-lightblue);
+  color: var(--bex-white);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 0.5em 1em;
+  transition: var(--transition-speed);
+  text-align: center;
+}
+
+.button:hover {
+  border: 2px solid var(--bex-red);
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(40, 44, 52, 0.5);
+}
+
+.modal-content {
+  background-color: var(--bex-darkblue);
+  margin: 20% auto;
+  padding: 2rem;
+  width: 25%;
+  box-shadow: rgba(22, 25, 31, 0.5) 0px 8px 24px;
+  border-radius: 1rem;
+  animation-name: modalopen;
+  animation-duration: var(--transition-speed);
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.closeBtn {
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:focus,
+.closeBtn:hover {
+  cursor: pointer;
   color: var(--bex-red);
 }
