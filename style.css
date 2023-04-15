@@ -61,7 +61,11 @@ body {
   /* Style */
   color: var(--ctp-macchiato-text);
   text-decoration: none;
+  transition: var(--transition-speed);
   /* Border */
   border: var(--ctp-macchiato-blue) solid 1px;
   border-radius: 10px;
+}
+.linkbox:hover {
+  border-color: var(--ctp-macchiato-red);
 }
