@@ -46,6 +46,11 @@ body {
   flex-direction: column;
 }
 
+h1,
+.introText {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
 .accent-text {
   color: var(--ctp-macchiato-red);
 }
@@ -66,9 +71,11 @@ body {
   border: var(--ctp-macchiato-blue) solid 1px;
   border-radius: 10px;
 }
+
 .linkbox:hover {
   border-color: var(--ctp-macchiato-red);
 }
+
 @media only screen and (max-width: 600px) {
   /*Big smartphones [426px -> 600px]*/
   .linkbox {
