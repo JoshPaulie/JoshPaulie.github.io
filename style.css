@@ -69,3 +69,13 @@ body {
 .linkbox:hover {
   border-color: var(--ctp-macchiato-red);
 }
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .linkbox {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
