@@ -91,3 +91,10 @@ h1,
     justify-content: flex-start;
   }
 }
+
+.repoLink {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+}
