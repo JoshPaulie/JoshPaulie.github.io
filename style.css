@@ -85,19 +85,24 @@ h1,
   filter: drop-shadow(3px 3px 4px var(--ctp-macchiato-crust));
 }
 
+.repoLink {
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: var(--transition-speed);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.repoLink:hover {
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
   .linkbox {
     width: 75%;
   }
-  body {
-    margin-top: 4rem;
+  .content {
     justify-content: flex-start;
   }
-}
-
-.repoLink {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  font-size: 2rem;
 }
