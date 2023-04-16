@@ -85,6 +85,11 @@ h1,
   filter: drop-shadow(3px 3px 4px var(--ctp-macchiato-crust));
 }
 
+.fa-solid,
+.fa-brands {
+  color: var(--ctp-macchiato-red);
+}
+
 .repoLink {
   padding: 1rem;
   font-size: 1.5rem;
