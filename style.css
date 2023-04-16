@@ -66,8 +66,8 @@ h1,
   justify-content: space-around;
   /* Size */
   width: 25%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   /* Spacing & Sizing */
   color: var(--ctp-macchiato-text);
   text-decoration: none;
