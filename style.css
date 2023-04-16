@@ -34,18 +34,21 @@
 }
 
 body {
+  /* Clear default margin & padding */
+  margin: 0px;
+  padding: 0px;
+  /* Colors */
+  background-color: var(--ctp-macchiato-base);
+  color: var(--ctp-macchiato-text);
+}
+
+.content {
   /* Flex box */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* Spacing & Sizing */
-  margin: 0px;
-  padding: 0px;
-  min-height: 100vh;
-  /* Styling */
-  background-color: var(--ctp-macchiato-base);
-  color: var(--ctp-macchiato-text);
+  height: 100vh;
 }
 
 h1,
