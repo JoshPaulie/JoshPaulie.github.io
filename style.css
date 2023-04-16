@@ -72,10 +72,14 @@ h1,
   /* Border */
   border: var(--ctp-macchiato-blue) solid 1px;
   border-radius: 10px;
+  /* Style */
+  background-color: var(--ctp-macchiato-surface0);
 }
 
 .linkbox:hover {
   border-color: var(--ctp-macchiato-red);
+  transform: translate(-1.5px, -1.5px);
+  filter: drop-shadow(3px 3px 4px var(--ctp-macchiato-crust));
 }
 
 @media only screen and (max-width: 600px) {
