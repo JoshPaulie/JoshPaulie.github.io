@@ -57,6 +57,10 @@ h1,
   padding: 0rem 2rem 0rem 2rem;
 }
 
+.greenText {
+  color: var(--ctp-macchiato-green);
+}
+
 .accent-text {
   color: var(--ctp-macchiato-red);
 }
