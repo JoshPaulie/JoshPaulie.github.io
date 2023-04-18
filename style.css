@@ -77,19 +77,19 @@ h1,
   /* Flex box */
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* Size */
   width: 25%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  /* Spacing & Sizing */
+  /* Style */
+  background-color: var(--ctp-macchiato-surface0);
   color: var(--ctp-macchiato-text);
   text-decoration: none;
   transition: var(--transition-speed);
   /* Border */
   border: var(--ctp-macchiato-blue) solid 1px;
   border-radius: 10px;
-  /* Style */
-  background-color: var(--ctp-macchiato-surface0);
 }
 
 .linkbox p {
@@ -97,6 +97,7 @@ h1,
   padding-bottom: 1rem;
 }
 
+.social-button:hover,
 .linkbox:hover {
   border-color: var(--ctp-macchiato-red);
   transform: translate(-1.5px, -1.5px);
@@ -108,7 +109,21 @@ h1,
   color: var(--ctp-macchiato-red);
 }
 
+.social-button {
+  font-size: 2rem;
+  width: auto;
+  transition: var(--transition-speed);
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+}
+
 @media only screen and (max-width: 600px) {
+  .social-button,
   .linkbox {
     width: 75%;
   }
