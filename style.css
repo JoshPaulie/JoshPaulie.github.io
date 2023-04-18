@@ -103,6 +103,7 @@ header,
   border-color: var(--ctp-macchiato-red);
   transform: translate(-1.5px, -1.5px);
   filter: drop-shadow(3px 3px 4px var(--ctp-macchiato-crust));
+  transition: 0.3s;
 }
 
 .fa-solid,
