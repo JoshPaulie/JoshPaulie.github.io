@@ -66,6 +66,10 @@ header,
   margin-bottom: 1rem;
 }
 
+#hobby-text {
+  border-bottom: var(--ctp-macchiato-blue) dotted 1px;
+}
+
 .greenText {
   color: var(--ctp-macchiato-green);
 }
