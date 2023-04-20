@@ -54,6 +54,11 @@ body {
   height: 100vh;
 }
 
+.meta-list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 header {
   font-size: 2.5rem;
 }
