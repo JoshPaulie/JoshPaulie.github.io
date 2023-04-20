@@ -76,6 +76,10 @@ header,
   border-bottom: var(--ctp-macchiato-blue) dotted 1px;
 }
 
+#hobby-text:hover {
+  cursor: pointer;
+}
+
 .greenText {
   color: var(--ctp-macchiato-green);
 }
