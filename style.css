@@ -67,6 +67,7 @@ header,
 }
 
 #hobby-text {
+  user-select: none;
   border-bottom: var(--ctp-macchiato-blue) dotted 1px;
 }
 
