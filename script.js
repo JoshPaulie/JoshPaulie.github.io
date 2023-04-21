@@ -1,17 +1,21 @@
 "use strict";
+
+// Pick a random hobby
 const hobbyText = document.getElementById("hobby-text");
+const hobbies = ["python", "computer science", "neovim", "linux", "programming", "graphic design"];
+let currentHobby = "";
 
 function changeHobbyText() {
-  const hobbies = ["python", "computer science", "neovim", "linux", "programming", "graphic design"];
-  const random_hobby = hobbies[Math.floor(Math.random() * hobbies.length)];
+  const availableHobbies = hobbies.filter((hobby) => hobby != currentHobby);
+  const random_hobby = availableHobbies[Math.floor(Math.random() * availableHobbies.length)];
+  currentHobby = random_hobby;
   hobbyText.textContent = random_hobby;
 }
 
-// Run on "init"
+// on page load
 changeHobbyText();
 
-// todo
-// make it so that the random hobby isn't what is currently selected
+// on text click
 hobbyText.addEventListener("click", () => {
   changeHobbyText();
 });
