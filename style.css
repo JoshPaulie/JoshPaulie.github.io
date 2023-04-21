@@ -80,7 +80,7 @@ header,
   cursor: pointer;
 }
 
-.greenText {
+.green-text {
   color: var(--ctp-macchiato-green);
 }
 
