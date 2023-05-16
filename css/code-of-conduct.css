@@ -64,4 +64,9 @@ blockquote p {
   body {
     margin: 0 1rem;
   }
+  #agree-btn {
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 80%;
+  }
 }
