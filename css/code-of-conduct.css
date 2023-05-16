@@ -27,19 +27,37 @@ b {
   font-weight: none;
 }
 
-/* blockquote p {
+blockquote p {
   padding: 1rem;
   border: 1px solid var(--ctp-macchiato-lavender);
   border-radius: 0.5rem;
   text-align: center;
-} */
+}
 
-.peach-accent {
+.subsection {
+  text-decoration: none;
   color: var(--ctp-macchiato-peach);
+}
+
+.subsection:target {
+  color: var(--ctp-macchiato-green);
 }
 
 .green-accent {
   color: var(--ctp-macchiato-green);
+}
+
+#agree-btn {
+  text-align: center;
+  padding: 1rem 10rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
