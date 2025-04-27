@@ -1,17 +1,16 @@
 ---
-# date: '2025-04-25'
 date: '2025-04-25'
 draft: false
 title: 'Ruff + VSCode'
-summary: 'Learn how to consolidate most of your Python extensions.'
-tags: [ruff, python, vscode, formatting]
+summary: 'Consolidating your Python extensions.'
+tags: [ruff, python, vscode]
 category: [tutorial]
 ShowToc: true
 ---
 
-Ruff Python linter and formatter written in Rust by the Astral team. Pretty much out-of-the-box, it can replaces Black, isort, and Pylint.
+Ruff is a Python linter and formatter written in Rust by the Astral team. Pretty much out-of-the-box, it can replaces Black, isort, and Pylint.
 
-This guide shows how to set up Ruff for a smooth experience in VSCode, from formatting on save to keyboard shortcuts.
+This guide is to illustrate which extensions it replaces, and some changes you'll likely need to make to VSCode, from formatting on save to keyboard shortcuts.
 
 > Related: [Ruff & Pylance](../ruff-pylance)
 
