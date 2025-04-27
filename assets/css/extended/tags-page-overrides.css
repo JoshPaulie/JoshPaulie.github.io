@@ -1,0 +1,5 @@
+/* Style tag buttons in /tags */
+.terms-tags a {
+  background: var(--code-block-bg);
+  color: var(--text);
+}

@@ -1,0 +1,99 @@
+baseURL: https://bexli.dev/
+languageCode: en-us
+title: bexli.dev
+
+theme: ["PaperMod"]
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+
+services:
+  googleAnalytics:
+    id: G-Y74KSLCMNJ
+
+privacy:
+  googleAnalytics:
+    respectDoNotTrack: true
+
+params:
+  mainSections: ["posts"]
+  ShowToc: true
+  TocOpen: false
+  ShowAllPagesInArchive: true
+  assets:
+    disableHLJS: true
+
+  ShowPostNavLinks: true
+
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  fuseOpts:  # Configures Fuse.js search options
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  profileMode:
+    enabled: false
+    title: bexli.dev
+    imageUrl: "#"
+    imageTitle: my image
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "bexli.dev"
+    Content: >
+      Snippets, guides, & thoughts
+
+  socialIcons:
+    - name: github
+      title: Bexli on Github
+      url: "https://github.com/JoshPaulie/"
+    - name: X
+      title: Bexli on X/Twitter
+      url: "http://x.com/itsbexli"
+    - name: Discord
+      title: Bexli on Discord
+      url: "https://discord.com/users/177131156028784640"
+
+menu:
+  main:
+    - name: Search
+      url: /search/
+      weight: 10
+    - name: Archives
+      url: /archives/
+      weight: 20
+    - name: Tags
+      url: /tags/
+      weight: 30
+    - name: About
+      url: /about/
+      weight: 40
+
+taxonomies:
+  tag: "tags"
+  category: "category"
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: catppuccin-macchiato
+

@@ -1,0 +1,7 @@
+/* Style the bottom next/prev buttons */
+footer.post-footer nav.paginav a:is(.next, .prev):hover {
+  background-color: var(--code-block-bg);
+  .title {
+    color: var(--mauve);
+  }
+}

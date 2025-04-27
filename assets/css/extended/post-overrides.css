@@ -1,0 +1,47 @@
+/* "Back to top" button */
+.top-link {
+  background: var(--code-block-bg);
+}
+
+.top-link:hover {
+  color: var(--code-block-bg);
+  background: var(--rosewater);
+}
+
+/* Post links */
+.post-content a {
+  color: var(--mauve);
+}
+
+/* Tags at bottom of page */
+.post-tags > li > a:hover {
+  background-color: var(--code-block-bg);
+}
+
+/* Give > quotes a bit more personality */
+.post-content blockquote {
+  border-inline-start: 3px solid var(--mauve);
+  /* background-color: rgb(198, 160, 246, 0.02); */
+  border-radius: 3px 8px 8px 3px;
+}
+
+/* Style # anchor link for a header */
+:is(h1, h2, h3, h4, h5, h6):hover .anchor {
+  color: var(--primary);
+  font-size: smaller;
+  display: inline;
+}
+
+.post-content a.anchor {
+  box-shadow: none;
+}
+
+/* Very bottom footer links (tiny text) */
+.footer a:hover {
+  color: var(--rosewater);
+}
+
+/* green text for short code */
+.post-content code {
+  color: var(--green);
+}
