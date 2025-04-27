@@ -21,6 +21,7 @@ params:
   TocOpen: false
   ShowAllPagesInArchive: true
   assets:
+    theme_color: "#24273a"
     disableHLJS: true
 
   ShowPostNavLinks: true
