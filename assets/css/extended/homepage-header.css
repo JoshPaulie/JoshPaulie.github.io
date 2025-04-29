@@ -1,0 +1,6 @@
+div.logo > a {
+  /* main.main article.first-entry.home-info header.entry-header h1 { */
+  background-image: linear-gradient(120deg, var(--teal), var(--blue));
+  background-clip: text;
+  color: transparent;
+}

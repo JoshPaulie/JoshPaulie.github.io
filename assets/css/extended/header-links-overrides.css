@@ -1,6 +1,6 @@
 /* Header / Nav links */
 header.header nav.nav ul#menu li a {
-  color: var(--rosewater);
+  /* color: var(--rosewater); */
 }
 
 /* header.header nav.nav ul#menu li a span {
