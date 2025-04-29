@@ -45,3 +45,7 @@
 .post-content code {
   color: var(--green);
 }
+
+.copy-code {
+  color: var(--text);
+}
