@@ -15,7 +15,7 @@ Ruff is a Python linter and formatter written in Rust by the Astral team. This g
 ## Consolidating extensions
 Pretty much out-of-the-box, Ruff replaces Black, isort, and Pylint.
 
-- Ruff replicates formatting behavior from Black and isort, including import sorting, quote consistency, and line wrapping. You can use it as your default formatter.
+- Ruff replicates formatting behavior from Black and isort, including import sorting, quote consistency, and line wrapping. You can use it as your [default formatter](#format-on-save-with-ruff).
 - Ruff re-implements linting rules from popular tools like Flake8, perflint, and Pydocstyle. This allows you to consolidate nearly **all** Python linting into one tool.
 
 ---
@@ -27,7 +27,7 @@ One of the coolest features of Ruff is you can define your linting and formattin
 
 Additionally, you can define these same settings in your editor. By default, your editor settings take precedent over your pyproject.toml settings.
 
-I like the idea of taking on the settings of whatever project I'm working on, but then "falling back" to *my* settings when I'm working on my own scripts and such. We can accomplish this with the following setting
+I like the idea of taking on the settings of whatever project I'm working on, but then "falling back" to *my* settings when I'm working on my own scripts. We can accomplish this with the following setting
 
 ```jsonc
 {

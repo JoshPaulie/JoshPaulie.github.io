@@ -14,7 +14,7 @@ I've had to return to VSCode (from Neovim) for work. Here are some thoughts on h
 ## Sidenote: Extensions aren't so bad
 I do miss declaratively defining plugins, but having a little marketplace to install everything from LSPs to themes is nice.
 
-What's not so nice? Having to define all of your extension settings in a single `settings.json`. Microsoft, please give us modular config files
+What's not so nice? Having to define ALL of your extension settings in a single `settings.json`. Microsoft, please give us modular config files.
 
 -----
 
@@ -36,7 +36,7 @@ What's not so nice? Having to define all of your extension settings in a single 
 {
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "right"
 }
 ```
 
@@ -48,13 +48,13 @@ If you're a Neovim refugee as well, you know how indispensable text objects are.
 
 [VSCode Textobjects](https://marketplace.visualstudio.com/items?itemName=RodrigoScola.vscode-textobjects) is a phenomenal reimplementation of [Treesitter's Textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects). It's written by a solo dev and somehow only has 5 stars, with around 115 downloads.
 
-It supports a TON of languages and is incredibly well thought-out. After copying/merging in the config snippet, all the vanilla motions are available, but for actual programming objects (classes, functions, variable names/values, loops, conditionals). It's as close to perfect as VSCode will allow.
+It supports a TON of languages and is incredibly well thought-out. After copying/merging in the config snippet, all the standard Vim text object motions are available, but for actual programming objects (classes, functions, variable names/values, loops, conditionals). It's as close to perfect as VSCode will allow.
 
-The toughest part is that you must define **all** motions in your config file. Not so bad—you'd have to do the same in Neovim. But this is hundreds of lines long, and we only have one config file to work with.
+The toughest part is that you must manually configure **all** text object motions in your config file. Not so bad, you'd have to do the same in Neovim. But this is hundreds of lines long, and we only have one config file to work with.
 
 > Again, Microsoft, PLEASE let us modularize our configs.
 
-Another limitation is that you only get basic editing motions (visual select, replace, delete, etc). While it covers most needs, there are some constraints:
+Another limitation is that you only get the "vanilla" editing operations (visual select, replace, delete, etc). While it covers most needs, there are some constraints:
 
 - Can't comment out the body of a function with `gcif`
 - Solution: visually select the inner contents first, *then* comment with `vifgc`
@@ -86,23 +86,24 @@ Quickly jump to any visible character:
 
 ### [vim-surround](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-surround) (Enabled)
 
-Surround objects with chracters (quotes, brackets, backticks, visual selection, etc). Great for turning `symbol` into a `"string"` (`ysiw"`), or changing a list `[1, 2, 3]` into a set `{1, 2, 3}` (`cs]}`)
+Surround objects with characters (quotes, brackets, backticks, visual selection, etc). Great for turning `symbol` into a `"string"` (`ysiw"`), or changing a list `[1, 2, 3]` into a set `{1, 2, 3}` (`cs]}`)
 
 {{< video src="assets/surround-set.mp4" >}}
 
 #### Tips
 
-- To surround your visual selection, use `S`.
+- To surround your visual selection, use `S`.  
+> *This differs from `vim-surround` in Neovim, where `S` is not used by default.*
 
 {{< video src="assets/surround-next-two-words.mp4" >}}
 
-- When surrounding with brackets, use
-  - **Opening** brackets (`{`, `[`, `(`) to "loosely" wrap (leave a space)
-  - **Closing** brackets (`}`, `]`, `)`) to "snuggly" wrap
+- When surrounding with brackets, use:
+  - **Opening** brackets (`{`, `[`, `(`) to loosely wrap (leave a space)
+  - **Closing** brackets (`}`, `]`, `)`) to tightly wrap
 
 ```txt
 [ "This is loosely wrapped" ]
-["This is snuggly wrapped"]
+["This is tightly wrapped"]
 ```
 
 ### [vim-commentary](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vim-commentary) (Enabled)
@@ -119,7 +120,8 @@ Edit PascalCase, camelCase, and snake_case symbols:
 
 ### [ReplaceWithRegister](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#replacewithregister) (Disabled)
 
-Overwrite text without losing clipboard content using `gr`:
+Overwrite text without losing clipboard content using `gr`  
+> *(Based on the [vim-substitute](https://github.com/inkarkat/vim-ReplaceWithRegister) plugin)*
 
 {{< video src="assets/replace-with-register.mp4" >}}
 
@@ -127,7 +129,7 @@ Overwrite text without losing clipboard content using `gr`:
 
 Quickly perform edits/actions against the entire file.
 
-I love using `yae` to copy my whole file to my [system clipboard](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vscodevim-settings), but don't like how it snaps my cursor to the start of the file. My hack is to mark (and return to) my current location:
+I love using `yae` (from `vim-textobj-entire`) to copy my whole file to my [system clipboard](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#vscodevim-settings), but don't like how it snaps my cursor to the start of the file. My hack is to mark (and return to) my current location:
 
 ```jsonc
 {
@@ -146,7 +148,7 @@ I love using `yae` to copy my whole file to my [system clipboard](https://github
 
 Here are my recommended VSCodeVim settings, not including bindings.
 
-- Enables all the above vim plugins
+- Enables all the above Vim plugins
 - Sets `space` to leader
 - "Highlight on yank"
 - Clearer searching
@@ -199,7 +201,7 @@ Here are my recommended VSCodeVim settings, not including bindings.
     {
       "before": ["leader", "l"],
       "commands": ["workbench.action.focusRightGroup"]
-    },
+    }
   ]
 }
 ```
@@ -236,7 +238,7 @@ Go to the next warning or error.
   "vim.normalModeKeyBindingsNonRecursive": [
     // Goto next problem
     {
-      "before": ["g", "e"],
+      "before": ["leader", "g", "e"],
       "commands": ["toggleVim", "go-to-next-problem.nextInFiles", "toggleVim", "extension.vim_escape"],
       "silent": true,
       "args": { "severity": ["error", "warn"] },
@@ -244,12 +246,12 @@ Go to the next warning or error.
     },
     // Goto previous problem
     {
-      "before": ["g", "E"],
+      "before": ["leader", "g", "E"],
       "commands": ["toggleVim", "go-to-next-problem.prevInFiles", "toggleVim", "extension.vim_escape"],
       "silent": true,
       "args": { "severity": ["error", "warn"] },
       "when": "editorFocus"
-    },
+    }
   ]
 }
 ```
@@ -260,4 +262,4 @@ Go to the next warning or error.
 
 These are my thoughts so far. For deeper customization, check the [VSCodeVim README](https://github.com/VSCodeVim/Vim?tab=readme-ov-file#%EF%B8%8F-settings).
 
-I'll be doing additional write-ups for my whole `settings.json` and an indeth (video?) on VSCode Textobjects
+I'll be doing additional write-ups for my whole `settings.json` and an in-depth (video?) on VSCode Text Objects.
