@@ -256,6 +256,20 @@ Go to the next warning or error.
 }
 ```
 
+### Error lens
+
+Inline error messages.
+
+> Requires [Error Lens](https://marketplace.visualstudio.com/items/?itemName=usernamehw.errorlens)
+
+```jsonc
+{
+  // Personally, I remove the "info" disagnostic level, as I also use spell check plugins
+  // Which I don't need inline errors for.
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+}
+```
+
 ---
 
 ## Read More
