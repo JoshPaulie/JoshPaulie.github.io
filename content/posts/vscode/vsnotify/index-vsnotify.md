@@ -58,7 +58,7 @@ Actually writing the extension was pretty straightforward. VSNotify is essential
 
 ### Creating a Command
 
-Each command is a function, and I created a basic interface to type the user arguments, providing autocompletion later
+Each command is a function, and I created a basic interface to type the user arguments, providing autocompletion later.
 
 Commands are defined in `package.json`, along with any relevant settings. Users can bind these commands to keyboard shortcuts, with either `keybindings.json` or VSCodeVim bindings, to create custom notifications.
 
