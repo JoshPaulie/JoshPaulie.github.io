@@ -40,6 +40,8 @@ Ultimately, I was able to emulate the same behavior as the Neovim example:
 }
 ```
 
+Here are my thoughts on writing my first extension.
+
 ## The Developer Experience
 
 Microsoft and the community have done an excellent job with the extension lifecycle. This is just a high-level overview, but their [Getting Started guide](https://code.visualstudio.com/api/get-started/your-first-extension) is fantastic.
