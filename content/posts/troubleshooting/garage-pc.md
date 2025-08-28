@@ -1,7 +1,7 @@
 ---
 date: '2025-08-27'
 draft: false
-title: 'Resurrecting the banished garage PC'
+title: 'Resurrecting the garage PC'
 summary: 'The adventure of updating a Prime B350-PLUS BIOS.'
 tags: ['tutorial', 'troubleshooting']
 category: []
